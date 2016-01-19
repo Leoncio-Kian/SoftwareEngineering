@@ -1,0 +1,14 @@
+﻿adding rest of files here.
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   app.js
+#	new file:   index.html
+#	new file:   listingController.js
+#	new file:   listingFactory.js
+#	new file:   style.css
+#
+
