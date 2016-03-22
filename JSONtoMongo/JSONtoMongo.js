@@ -5,9 +5,9 @@
  */
 var fs = require('fs'),
     mongoose = require('mongoose'), 
-    Listing = require('./ListingSchema.js'), 
+    Listing = require('./ListingSchema_v2.js'), 
     config = require('./config.js'),
-    listingData= require('./listings.json');
+    listingData= require('./children_vTwo.json');
 
 /* Connect to your database */
 mongoose.connect(config.db.uri);
