@@ -7,11 +7,12 @@ var fs = require('fs'),
     mongoose = require('mongoose'), 
     Listing = require('./ListingSchema_v2.js'), 
     config = require('./config.js'),
-    listingData= require('./children_vTwo.json');
+    listingData= require('./children_vThree.json');
 
 /* Connect to your database */
 mongoose.connect(config.db.uri);
 /*Creates and logs the success*/
+//console.log(listingData.entries);
 Listing.create(listingData.entries, finished);
 function finished(){
 	mongoose.disconnect();
