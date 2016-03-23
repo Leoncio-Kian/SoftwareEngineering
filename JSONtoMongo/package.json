@@ -9,6 +9,7 @@
   "author": "Medhir Bhargava",
   "license": "MIT",
   "dependencies": {
+    "jquery": "^2.2.2",
     "mongoose": "^4.2.9"
   },
   "devDependencies": {

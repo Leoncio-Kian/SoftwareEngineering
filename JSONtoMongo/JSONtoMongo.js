@@ -7,7 +7,11 @@ var fs = require('fs'),
     mongoose = require('mongoose'), 
     Listing = require('./ListingSchema_v2.js'), 
     config = require('./config.js'),
-    listingData= require('./children_vThree.json');
+    listingData= require('./childrenv5.json');
+
+//var data = fs.readFileSync('./childrenv5.json');
+//var itworks = JSON.parse(data);
+/*READFILESYNC TO GET THE FILE*/
 
 /* Connect to your database */
 mongoose.connect(config.db.uri);
